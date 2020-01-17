@@ -1,4 +1,4 @@
-import 'package:amg/screens/dynamics-swipe.dart';
+import 'package:amg/screens/CarsSwipe.dart';
 import 'package:flutter/material.dart';
 
 class SplashScreen extends StatelessWidget {
@@ -10,7 +10,7 @@ class SplashScreen extends StatelessWidget {
           onTap: () {
             Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => ParallaxPageView()),
+              MaterialPageRoute(builder: (context) => CarsSwipe()),
             );
           },
           child: Container(
